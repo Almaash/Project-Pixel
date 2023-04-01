@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>owl-carousel</title>
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="part">
+         <div class="container" >
+             
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="owl-carousel owl-theme" id="partenerrr">
+
+                         <div class="item">
+                             <center><img src="img/owl/Dhl.png" class="img" alt="dbms">
+                            
+                             </center>
+                         </div>
+
+                         <div class="item">
+                             <center><img src="img/owl/Disney-Plus-logo-2048x1152.png" class="img" alt="dbms">
+                            
+                             </center>
+                         </div>
+
+                         <div class="item">
+                             <center><img src="img/owl//flipkart.png" class="img" alt="dbms">
+                            
+                             </center>
+                         </div>
+                         <div class="item">
+                             <center><img src="img/owl/ngc.png" class="img" alt="dbms">
+                            
+                             </center>
+                         </div>
+
+                         <div class="item">
+                             <center><img src="img/owl/Oracle.png" class="img" alt="dbms">
+                            
+                             </center>
+                         </div>
+                         
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+   
+     
+     
+     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+     <script src="owlcarousel/owl.carousel.min.js"></script>
+
+  <script>
+   $(document).ready(function(){
+     var owl = $('#partenerrr');
+     owl.owlCarousel({
+         loop:true,
+         nav:false,
+         margin:10,
+         autoplay:true,
+         autoplayTimeout:1500,
+         responsive:{
+
+             0:{
+
+                 items:1
+             },
+             375:{
+
+                 items:2
+             },
+             600:{
+
+                 items:3
+             },
+             960:{
+
+                 items:3
+             },
+             1200:{
+
+                 items:4
+             }
+         }
+     });
+   });
+ </script>
+ </body>
+</html>
